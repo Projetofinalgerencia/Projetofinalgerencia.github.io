@@ -1,27 +1,32 @@
-body{
-    margin: 0;
-
-}
-#Menu ul{
-    margin: 15px;
-    background-color: black;
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
-    margin:center;
-    width: 100%;
-    height: auto;
-
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
- #Menu ul li{
-     display: inline;
+a {
+    text-decoration: none;
+    color: snow;
+}
 
- }
- #Menu ul li a{
-     padding:  10px 10px;
-     display: inline-block;
-     color: white;
-     text-decoration: none;
+.header {
+    background-color: #1d1d1d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 
-    }
-#Menu ul li a:hover{
-  color: red;
+.menu {
+    display: flex;
+}
+.menu li {
+    margin-left: 25px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
 }
