@@ -6,9 +6,7 @@ body{
     margin: 15px;
     background-color: black;
     list-style: none;
-    margin:center;
-    width: 100%;
-    height: auto;
+    
 
 }
  #Menu ul li{
@@ -24,4 +22,35 @@ body{
     }
 #Menu ul li a:hover{
   color: red;
+}
+
+h1{
+    margin: 4%;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: 'Roboto Mono', monoespaço
+
+}
+p{
+    margin: 10%,0;
+    text-align: center;
+    width: 98%;
+    padding: 10px;
+    border: 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+h2{
+    margin: 4%;
+    text-align: left;
+    font-family: sans-serif;
+    font-family: 'Roboto Mono', monoespaço
+    
+}
+ul{
+   
+    margin: 2%;
+    text-align: left;
+    font-family: sans-serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+     
 }
