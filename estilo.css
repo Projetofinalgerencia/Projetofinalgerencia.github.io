@@ -3,9 +3,12 @@ body{
 
 }
 #Menu ul{
-    margin: 0;
+    margin: 15px;
     background-color: black;
     list-style: none;
+    margin:center;
+    width: 100%;
+    height: auto;
 
 }
  #Menu ul li{
