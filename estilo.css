@@ -32,6 +32,16 @@ a {
     display: block;
     padding: 10px;
 }
+
 a:hover{
     color:red;
 }
+
+h1 {
+   font-size: xx-large;
+}
+
+.corpo {
+    margin: 5px 20% 5px 20%;
+}
+
