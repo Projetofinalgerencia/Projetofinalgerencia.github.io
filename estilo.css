@@ -42,6 +42,10 @@ h1 {
 }
 
 .corpo {
-    margin: 5px 20% 5px 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1.8;
 }
 
