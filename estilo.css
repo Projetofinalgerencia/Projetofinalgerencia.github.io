@@ -1,3 +1,10 @@
+body {
+    background-image: url("plano_fundo.jpg");background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
 body, ul, li, p {
     margin: 0px;
     padding: 0px;
@@ -42,6 +49,7 @@ h1 {
 }
 
 .corpo {
+    color: #000000;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5px;
@@ -54,4 +62,6 @@ img {
     width: 320px;
     padding-right: 40px;
 }
+.fundo {
 
+}
