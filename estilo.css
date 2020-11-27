@@ -1,3 +1,10 @@
+body {
+    background-image: url("plano_fundo.jpg");background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
 body, ul, li, p {
     margin: 0px;
     padding: 0px;
@@ -42,49 +49,24 @@ h1 {
 }
 
 .corpo {
-    margin-left: 20%;
-    margin-right: 20%;
+    color: #000000;
+    margin-left: 18%;
+    margin-right: 18%;
     margin-top: 5px;
     margin-bottom: 5px;
     line-height: 1.8;
 }
 
-img {
-    height: 200px;
-    width: 320px;
-    padding-right: 40px;
+.fundo {
+    width: 840px;
+    height: 315px;
 }
-
-.il1{
- padding-top: 10px;
-}
-.bikeestrada{
-    height: 250px;
-    width: 750px;
-}
-.bikemtb{
-    height: 250px;
-    width: 320px;
-    padding-left: 15px;
-}
-.bikebmx{
-    height: 250px;
+.bike {
+    height: 300px;
     width: 400px;
-    padding-left: 150px;
+    padding: 0px;
 }
-
-.fundo{
-    width: 850px;
+.bike_e {
     height: 250px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 800px;
 }
-.fundob{
-    width: 850px;
-    height: 350px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
