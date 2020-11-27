@@ -50,8 +50,41 @@ h1 {
 }
 
 img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 320px;
     padding-right: 40px;
 }
+
+.il1{
+ padding-top: 10px;
+}
+.bikeestrada{
+    height: 250px;
+    width: 750px;
+}
+.bikemtb{
+    height: 250px;
+    width: 320px;
+    padding-left: 15px;
+}
+.bikebmx{
+    height: 250px;
+    width: 400px;
+    padding-left: 150px;
+}
+
+.fundo{
+    width: 850px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fundob{
+    width: 850px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
