@@ -1,5 +1,6 @@
 body {
-    background-image: url("plano_fundo.jpg");background-attachment: fixed;
+    background-image: url("plano_fundo.jpg");
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -32,12 +33,11 @@ a {
 }
 
 .menu li {
-    margin-right: 20px;
+    margin-right: 45px;
 }
 
 .menu li a {
     display: block;
-    padding: 10px;
 }
 
 a:hover{
@@ -52,8 +52,8 @@ h1 {
     color: #000000;
     margin-left: 18%;
     margin-right: 18%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     line-height: 1.8;
 }
 
@@ -69,4 +69,44 @@ h1 {
 .bike_e {
     height: 250px;
     width: 800px;
+}
+
+@media (max-width: 680px) {
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+
+    .corpo{
+        margin: 20px;
+    }
+
+    .fundo {
+        height: 180px;
+        width: 320px;
+    }
+
+    .bike {
+        height: 180px;
+        width: 320px;
+    }
+
+    .bike_e {
+        height: 180px;
+        width: 320px;
+    }
+
+    .header {
+        margin: 0px;
+        padding: 15px 20px;
+    }
+
+    .header a {
+        margin-left: 10px;
+    }
+
+    .menu li a{
+        height: 40px;
+    }
 }
