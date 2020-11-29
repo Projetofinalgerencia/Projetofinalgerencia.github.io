@@ -72,12 +72,6 @@ h1 {
 }
 
 @media (max-width: 680px) {
-    body {
-        background-attachment: fixed;
-        background-size: cover;
-        
-    }
-
     .corpo{
         margin: 20px;
     }
